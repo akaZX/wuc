@@ -1,0 +1,41 @@
+#accordionSidebar {
+    /* primary gradient top to bottom */
+    background: rgba(116,205,237,1);
+    background: -moz-linear-gradient(top, rgba(116,205,237,1) 0%, rgba(142,232,218,1) 50%, rgba(199,233,242,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(116,205,237,1)), color-stop(50%, rgba(142,232,218,1)), color-stop(100%, rgba(199,233,242,1)));
+    background: -webkit-linear-gradient(top, rgba(116,205,237,1) 0%, rgba(142,232,218,1) 50%, rgba(199,233,242,1) 100%);
+    background: -o-linear-gradient(top, rgba(116,205,237,1) 0%, rgba(142,232,218,1) 50%, rgba(199,233,242,1) 100%);
+    background: -ms-linear-gradient(top, rgba(116,205,237,1) 0%, rgba(142,232,218,1) 50%, rgba(199,233,242,1) 100%);
+    background: linear-gradient(to bottom, rgba(116,205,237,1) 0%, rgba(142,232,218,1) 50%, rgba(199,233,242,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74cded', endColorstr='#c7e9f2', GradientType=0 );
+}
+
+#accordionSidebar .sidebar-heading {
+    text-align: center;
+}
+
+#accordionSidebar .nav-link {
+    padding: .4rem 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+#accordionSidebar .nav-link i {
+    color: white;
+}
+
+.table-responsive {
+ font-size: .8rem;
+}
+
+.dataTable td {
+ padding: .2rem .2rem;
+}
+
+.td-action {
+    text-align: center;
+}
+
+.bg-login-image {
+    background: url(../img/wuc-logo-small.png) no-repeat center;
+}

@@ -1,0 +1,1 @@
+<img src="/img/attendance.jpg" class="img-fluid" alt="Responsive image">
